@@ -1,0 +1,334 @@
+[{
+  
+  "translations": [
+    {
+      "QuestionTranslation": {
+        "$oid": "6388929ac7192d91fb661675"
+      },
+      "language": {
+        "$oid": "6364eb6ef593fd40453e2ce9"
+      },
+      "_id": {
+        "$oid": "6388929ac7192d91fb661681"
+      }
+    },
+    {
+      "QuestionTranslation": {
+        "$oid": "6388929ac7192d91fb66167a"
+      },
+      "language": {
+        "$oid": "6364eb85f593fd40453e2ceb"
+      },
+      "_id": {
+        "$oid": "6388929ac7192d91fb661682"
+      }
+    }
+  ],
+  "topic": {
+    "$oid": "63887a76c7192d91fb661568"
+  },
+  "isPractice": true,
+  "createdAt": {
+    "$date": "2022-12-01T11:40:10.722Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T11:40:10.722Z"
+  },
+  "__v": 0
+},{
+  
+  "translations": [
+    {
+      "QuestionTranslation": {
+        "$oid": "63889435c7192d91fb661688"
+      },
+      "language": {
+        "$oid": "6364eb6ef593fd40453e2ce9"
+      },
+      "_id": {
+        "$oid": "63889435c7192d91fb661690"
+      }
+    },
+    {
+      "QuestionTranslation": {
+        "$oid": "63889435c7192d91fb66168b"
+      },
+      "language": {
+        "$oid": "6364eb85f593fd40453e2ceb"
+      },
+      "_id": {
+        "$oid": "63889435c7192d91fb661691"
+      }
+    }
+  ],
+  "topic": {
+    "$oid": "63887a76c7192d91fb661568"
+  },
+  "isPractice": true,
+  "createdAt": {
+    "$date": "2022-12-01T11:47:01.880Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T11:47:01.880Z"
+  },
+  "__v": 0
+},{
+  
+  "translations": [
+    {
+      "QuestionTranslation": {
+        "$oid": "638896dbc7192d91fb661697"
+      },
+      "language": {
+        "$oid": "6364eb6ef593fd40453e2ce9"
+      },
+      "_id": {
+        "$oid": "638896dbc7192d91fb6616a1"
+      }
+    },
+    {
+      "QuestionTranslation": {
+        "$oid": "638896dbc7192d91fb66169b"
+      },
+      "language": {
+        "$oid": "6364eb85f593fd40453e2ceb"
+      },
+      "_id": {
+        "$oid": "638896dbc7192d91fb6616a2"
+      }
+    }
+  ],
+  "topic": {
+    "$oid": "63887a76c7192d91fb661568"
+  },
+  "isPractice": true,
+  "createdAt": {
+    "$date": "2022-12-01T11:58:19.459Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T11:58:19.459Z"
+  },
+  "__v": 0
+},{
+  
+  "translations": [
+    {
+      "QuestionTranslation": {
+        "$oid": "6388988ac7192d91fb6616a8"
+      },
+      "language": {
+        "$oid": "6364eb6ef593fd40453e2ce9"
+      },
+      "_id": {
+        "$oid": "6388988ac7192d91fb6616b4"
+      }
+    },
+    {
+      "QuestionTranslation": {
+        "$oid": "6388988ac7192d91fb6616ad"
+      },
+      "language": {
+        "$oid": "6364eb85f593fd40453e2ceb"
+      },
+      "_id": {
+        "$oid": "6388988ac7192d91fb6616b5"
+      }
+    }
+  ],
+  "topic": {
+    "$oid": "63887a76c7192d91fb661568"
+  },
+  "isPractice": true,
+  "createdAt": {
+    "$date": "2022-12-01T12:05:30.809Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T12:05:30.809Z"
+  },
+  "__v": 0
+},{
+ 
+  "translations": [
+    {
+      "QuestionTranslation": {
+        "$oid": "63889ac0c7192d91fb6616bb"
+      },
+      "language": {
+        "$oid": "6364eb6ef593fd40453e2ce9"
+      },
+      "_id": {
+        "$oid": "63889ac0c7192d91fb6616c7"
+      }
+    },
+    {
+      "QuestionTranslation": {
+        "$oid": "63889ac0c7192d91fb6616c0"
+      },
+      "language": {
+        "$oid": "6364eb85f593fd40453e2ceb"
+      },
+      "_id": {
+        "$oid": "63889ac0c7192d91fb6616c8"
+      }
+    }
+  ],
+  "topic": {
+    "$oid": "63887a76c7192d91fb661568"
+  },
+  "isPractice": true,
+  "createdAt": {
+    "$date": "2022-12-01T12:14:56.603Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T12:14:56.603Z"
+  },
+  "__v": 0
+},{
+  
+  "translations": [
+    {
+      "QuestionTranslation": {
+        "$oid": "63889ddcc7192d91fb6616ce"
+      },
+      "language": {
+        "$oid": "6364eb6ef593fd40453e2ce9"
+      },
+      "_id": {
+        "$oid": "63889ddcc7192d91fb6616da"
+      }
+    },
+    {
+      "QuestionTranslation": {
+        "$oid": "63889ddcc7192d91fb6616d3"
+      },
+      "language": {
+        "$oid": "6364eb85f593fd40453e2ceb"
+      },
+      "_id": {
+        "$oid": "63889ddcc7192d91fb6616db"
+      }
+    }
+  ],
+  "topic": {
+    "$oid": "63887a76c7192d91fb661568"
+  },
+  "isPractice": true,
+  "createdAt": {
+    "$date": "2022-12-01T12:28:12.868Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T12:28:12.868Z"
+  },
+  "__v": 0
+},{
+ 
+  "translations": [
+    {
+      "QuestionTranslation": {
+        "$oid": "6388a1b6c7192d91fb6616e1"
+      },
+      "language": {
+        "$oid": "6364eb6ef593fd40453e2ce9"
+      },
+      "_id": {
+        "$oid": "6388a1b6c7192d91fb6616eb"
+      }
+    },
+    {
+      "QuestionTranslation": {
+        "$oid": "6388a1b6c7192d91fb6616e5"
+      },
+      "language": {
+        "$oid": "6364eb85f593fd40453e2ceb"
+      },
+      "_id": {
+        "$oid": "6388a1b6c7192d91fb6616ec"
+      }
+    }
+  ],
+  "topic": {
+    "$oid": "63887a76c7192d91fb661568"
+  },
+  "isPractice": true,
+  "createdAt": {
+    "$date": "2022-12-01T12:44:38.369Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T12:44:38.369Z"
+  },
+  "__v": 0
+},{
+ 
+  "translations": [
+    {
+      "QuestionTranslation": {
+        "$oid": "6388a3e3c7192d91fb6616f2"
+      },
+      "language": {
+        "$oid": "6364eb6ef593fd40453e2ce9"
+      },
+      "_id": {
+        "$oid": "6388a3e3c7192d91fb6616fc"
+      }
+    },
+    {
+      "QuestionTranslation": {
+        "$oid": "6388a3e3c7192d91fb6616f6"
+      },
+      "language": {
+        "$oid": "6364eb85f593fd40453e2ceb"
+      },
+      "_id": {
+        "$oid": "6388a3e3c7192d91fb6616fd"
+      }
+    }
+  ],
+  "topic": {
+    "$oid": "63887a76c7192d91fb661568"
+  },
+  "isPractice": true,
+  "createdAt": {
+    "$date": "2022-12-01T12:53:55.577Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T12:53:55.577Z"
+  },
+  "__v": 0
+},{
+ 
+  "translations": [
+    {
+      "QuestionTranslation": {
+        "$oid": "6388a662c7192d91fb661703"
+      },
+      "language": {
+        "$oid": "6364eb6ef593fd40453e2ce9"
+      },
+      "_id": {
+        "$oid": "6388a662c7192d91fb66170f"
+      }
+    },
+    {
+      "QuestionTranslation": {
+        "$oid": "6388a662c7192d91fb661708"
+      },
+      "language": {
+        "$oid": "6364eb85f593fd40453e2ceb"
+      },
+      "_id": {
+        "$oid": "6388a662c7192d91fb661710"
+      }
+    }
+  ],
+  "topic": {
+    "$oid": "63887a76c7192d91fb661568"
+  },
+  "isPractice": true,
+  "createdAt": {
+    "$date": "2022-12-01T13:04:34.507Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T13:04:34.507Z"
+  },
+  "__v": 0
+}]

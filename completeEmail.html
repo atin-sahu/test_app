@@ -1,0 +1,441 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+  <style type="text/css" rel="stylesheet" media="all">
+    *:not(br):not(tr):not(html) {
+      font-family: poppins, sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100% !important;
+      height: 100%;
+      margin: 0;
+      line-height: 1.4;
+      -webkit-text-size-adjust: none;
+    }
+
+    p,
+    ul,
+    ol,
+    blockquote {
+      line-height: 1.4;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+
+    a {
+      color: #fff;
+    }
+
+    a img {
+      border: none;
+    }
+
+    a:focus {
+      outline: none !important;
+    }
+
+    td {
+      word-break: break-word;
+    }
+
+    .email-content {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      -premailer-width: 100%;
+      -premailer-cellpadding: 0;
+      -premailer-cellspacing: 0;
+      background-color: #91E8A5;
+    }
+
+    .email-masthead_name {
+      font-size: 16px;
+      font-weight: bold;
+      color: #BBBFC3;
+      text-decoration: none;
+      text-shadow: 0 1px 0 white;
+    }
+
+    .email-body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      -premailer-width: 100%;
+      -premailer-cellpadding: 0;
+      -premailer-cellspacing: 0;
+      /* border-bottom: 1px solid #EDEFF2; */
+      background-color: #FFFFFF;
+    }
+
+    .email-body_inner {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      -premailer-width: 570px;
+      -premailer-cellpadding: 0;
+      -premailer-cellspacing: 0;
+      background-color: #FFFFFF;
+    }
+
+    p {
+      margin-top: 0;
+      color: #fff;
+      font-size: 16px;
+      line-height: 1.3;
+      text-align: center;
+    }
+
+    p.center {
+      text-align: center;
+    }
+
+    .passPadd {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+
+    @media (max-width:425px) {
+      .mbViewSet {
+        width: 100% !important;
+      }
+    }
+
+    .shareableText:focus-visible{
+      outline: none;
+    }
+
+    .shareableText{
+      font-size: 16px;
+      width: 100%;
+      height:30px;
+      border: none;
+      color: #434F65;
+      display: flex;
+      align-items: center !important;
+    }
+
+    .copyImg{
+      background-color:#fcf7f6;
+      height: 40px;
+      width: 50px;
+      border-radius:20px 0px 0px 20px;
+      border-right: 1px solid #6dbfb8 ;
+      display: flex;
+      flex-wrap: wrap;
+      /* justify-content: center;
+      align-items: center; */
+    }
+
+  </style>
+</head>
+
+<body>
+  <table style="width:100%;height:auto">
+    <tbody>
+      <tr>
+        <td style="width:100%;text-align:center;">
+          <img src="https://cdn.greetpool.com/profilePics/Group%207471623926859586.png"
+            style="transform:scale(0.7);margin-top:50px;" />
+        </td>
+      </tr>
+      <tr style="text-align:center">
+        <td
+          style="width:100%;height:auto;line-height:41px; color: #434F65;font-size: 28px;font-weight: 600;text-align: center;padding-top:30px">
+          Order Is Confirmed <br />
+          <span style="color: #8B8D9C;font-size: 18px;font-weight: 500;text-align: center;">{{name}}</span>
+        </td>
+      </tr>
+      <tr style="width:100%;display: flex;justify-content: center;align-items: center;" class="passPadd">
+        <td
+          style="width:100%;padding-top: 15px;text-align:center;display: flex;align-content: space-around;justify-content: space-around;display: flex;justify-content: center;align-items: center;"
+          class="passPadd">
+          <table class='mbViewSet' style="width:100%;border-radius: 20px;padding: 0% 5%;">
+            <tbody>
+              <tr style="width:100%,">
+                <td
+                  style="font-size: 16px;color: #434F65;font-weight: 600;padding-left:0%;padding-top:2%;padding-bottom:2%;text-align: center;">
+                  Order Summary
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table
+                    style="width:100%;border: 1px solid #abe4db5e;border-radius: 20px;box-shadow:0 .1rem 1rem lightgrey;padding: 2%;margin-top: 15px;">
+
+                    <tr
+                      style="width:100%;
+                                                        border-radius:20px;display:inline-flex;border-bottom-left-radius:0px;border-bottom-right-radius:0px;margin-top: 15px;">
+                      <td style="
+                                                                color: #434F65;
+                                                                font-size: 16px;
+                                                                font-weight: 600;
+                                                                width:200px;
+                                                                line-height:41px;
+                                                                padding-left:15px;
+                                                                width:100%;
+                                                                text-align:left
+                                                          ">
+                        <img src='{{imageUrl}}' style='width:50px' />
+                        <br />
+                        {{sender}}
+                      </td>
+                      <td style="
+                                                                color: #434F65;
+                                                                font-size: 16px;
+                                                                font-weight: 600;
+                                                                width:200px;
+                                                                text-align:right;
+                                                                line-height:41px;
+                                                                padding-right:15px;
+                                                                width:100%;
+                                                                
+                                                          ">
+                        <small style="font-size: 13px;margin-right: 5px;color:#A7A7A7">PRICE</small><strong
+                          style='color: #000000;font-weight: bold;font-size: 13px;'>USD
+                          {{#if price}}
+                          {{price}}</strong>
+                        {{else}}
+                        {{reciever}}</strong>
+                        {{/if}}
+                      </td>
+                    </tr>
+                    <tr
+                      style="width:100%;
+                                                    border-radius:20px;display:inline-flex;border-bottom-left-radius:0px;border-bottom-right-radius:0px;margin-top: 15px;border-top: solid #8B8D9C 1px;border-top-left-radius: 0px;border-top-right-radius: 0px;">
+                      <td style="
+                                                            color: #434F65;
+                                                            font-size: 16px;
+                                                            font-weight: 600;
+                                                            width:200px;
+                                                            line-height:41px;
+                                                            padding-left:15px;
+                                                            width:100%;
+                                                            text-align:left
+                                                      ">
+
+                        Sub Total
+                      </td>
+                      <td style="
+                                                            color: #434F65;
+                                                            font-size: 16px;
+                                                            font-weight: 600;
+                                                            width:200px;
+                                                            text-align:right;
+                                                            line-height:41px;
+                                                            padding-right:15px;
+                                                            width:100%;
+                                                            
+                                                      ">
+                        <strong style='color: #000000;font-weight: bold;font-size: 13px;'>USD
+                          {{#if price}}
+                          {{price}}</strong>
+                        {{else}}
+                        {{reciever}}</strong>
+                        {{/if}}
+                      </td>
+                    </tr>
+                    <tr
+                      style="width:100%;
+                                                      border-radius:20px;display:inline-flex;border-bottom-left-radius:0px;border-bottom-right-radius:0px;margin-top: 15px;">
+                      <td style="
+                                                              color: #434F65;
+                                                              font-size: 16px;
+                                                              font-weight: 600;
+                                                              width:200px;
+                                                              line-height:41px;
+                                                              padding-left:15px;
+                                                              width:100%;
+                                                              text-align:left
+                                                        ">
+
+                        Credit Applied
+                      </td>
+                      <td style="
+                                                              color: #434F65;
+                                                              font-size: 16px;
+                                                              font-weight: 600;
+                                                              width:200px;
+                                                              text-align:right;
+                                                              line-height:41px;
+                                                              padding-right:15px;
+                                                              width:100%;
+                                                              
+                                                        ">
+                        <strong style='color: #000000;font-weight: bold;font-size: 13px;'>USD
+                          {{amount}}</strong>
+                      </td>
+                    </tr>
+                    <tr
+                      style="width:100%;
+                                                      border-radius:20px;display:inline-flex;border-bottom-left-radius:0px;border-bottom-right-radius:0px;margin-top: 15px;">
+                      <td style="
+                                                              color: #434F65;
+                                                              font-size: 16px;
+                                                              font-weight: 600;
+                                                              width:200px;
+                                                              line-height:41px;
+                                                              padding-left:15px;
+                                                              width:100%;
+                                                              text-align:left
+                                                        ">
+
+                        Discount
+                      </td>
+                      <td style="
+                                                              color: #434F65;
+                                                              font-size: 16px;
+                                                              font-weight: 600;
+                                                              width:200px;
+                                                              text-align:right;
+                                                              line-height:41px;
+                                                              padding-right:15px;
+                                                              width:100%;
+                                                              
+                                                        ">
+                        <strong style='color: #000000;font-weight: bold;font-size: 13px;'>
+                          USD {{discount}}</strong>
+                      </td>
+                    </tr>
+                    <tr
+                      style="width:100%;
+                                                      border-radius:20px;display:inline-flex;border-bottom-left-radius:0px;border-bottom-right-radius:0px;margin-top: 15px;">
+                      <td style="
+                                                              color: #434F65;
+                                                              font-size: 16px;
+                                                              font-weight: 600;
+                                                              width:200px;
+                                                              line-height:41px;
+                                                              padding-left:15px;
+                                                              width:100%;
+                                                              text-align:left
+                                                        ">
+
+                        Tax(%)
+                      </td>
+                      <td style="
+                                                              color: #434F65;
+                                                              font-size: 16px;
+                                                              font-weight: 600;
+                                                              width:200px;
+                                                              text-align:right;
+                                                              line-height:41px;
+                                                              padding-right:15px;
+                                                              width:100%;
+                                                              
+                                                        ">
+                        <strong style='color: #000000;font-weight: bold;font-size: 13px;'>
+                          {{tax}}</strong>
+                      </td>
+                    </tr>
+                    <tr
+                      style="width:100%;
+                                                          border-radius:0px;display:inline-flex;border-bottom-left-radius:0px;border-bottom-right-radius:0px;border-top: solid #8B8D9C 1px;margin-top: 15px;">
+                      <td style="
+                                                                  color: #434F65;
+                                                                  font-size: 16px;
+                                                                  font-weight: 600;
+                                                                  width:200px;
+                                                                  line-height:41px;
+                                                                  padding-left:15px;
+                                                                   width:100%;
+                                                              ">
+                      </td>
+                      <td style="
+                                                                  color: #434F65;
+                                                                  font-size: 16px;
+                                                                  font-weight: 600;
+                                                                  width:200px;
+                                                                  text-align:right;
+                                                                  line-height:41px;
+                                                                  padding-right:15px;
+                                                                  width:100%;
+                                                              ">
+                        <small style="font-size: 14px;margin-right: 5px;color:#434F65">TOTAL
+                        </small><strong style='color: #81DBCD;font-weight: bold;font-size: 14px;'>USD
+                          {{reciever}}</strong>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top: 55px solid #fff;
+                                      border-bottom:30px solid #fff;
+                                      text-align: center;">
+          <a href="{{link}}" style=" text-decoration: none;
+                                          border-radius: 20px;
+                                          font-size: 14px;
+                                          color: #fff;
+                                          font-weight: 600;
+                                          background-color: #81DBCD;
+                                          border: 1px solid #81DBCD;
+                                          border-left: 85px solid #81DBCD;
+                                          border-right: 85px solid #81DBCD;
+                                          border-top: 10px solid #81DBCD;
+                                          border-bottom: 10px solid #81DBCD;">
+            Download Invoice
+          </a>
+        </td>
+      </tr>
+
+    
+
+      <tr>
+        <td>
+            <div style="width: 90%; margin: auto;  padding: 10px 0px;">
+                <div >
+                  <h2 style="font-size: 16px; color: #434F65">Shareable Link :</h2>
+                </div>
+
+                <div style="display: flex; align-items: center; border: 1px solid #6dbfb8 ; border-radius: 20px;  height: 40px;">
+                  <div class="copyImg">
+                    <img alt="copy icon" height="25px" style="margin: auto;" src="https://cdn.greetpool.com/assetsdata/images/copy.png"/>
+                  </div>
+                  <div style="padding: 0px 10px; width: 100%; display: flex; align-items: center;">
+                    <input type="text" style="margin: auto;"  class="shareableText" readonly></input>
+                  </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+
+
+
+      <tr>
+        <td style="font-size: 14px;
+                            color: #A7A7A7;
+                            font-weight: 400;
+                            border-top: 10px solid #fff;
+                            border-bottom: 10px solid #fff;
+                            text-align: center;">
+          Questions?
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 14px;
+                            color: #8B8D9C;
+                            text-align: center;
+                            font-weight: 400;">
+          Email us at <span style="font-weight: 600;
+                                color: #8B8D9C;">
+            <a href='mailto:feedback@greetpool.com' style="font-weight: 600;
+                        color: #8b8d9c;text-decoration:none">feedback@greetpool.com</a>
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
